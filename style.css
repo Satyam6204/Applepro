@@ -4,18 +4,20 @@
 }
 
 
+body{
+    background-color:rgb(255, 255, 255) !important;
+}
+
+
 
 header{
     display: flex;
-    
-
-   
-}
+    }
 
 nav{
     display: flex;
     margin-top: 30px;
-    margin-left: 500px;
+    margin-left: 400px;
     justify-items: space-between ;
     
    }
@@ -44,11 +46,23 @@ nav ul{
 }
 
 .box{
-  border: 140px solid black;
-    border-radius: 100px;
-    display: flex;
+    background-color: antiquewhite;
+     
+     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    
+    
+}
+
+.box video{
+    border-bottom: 50px solid rgb(85, 85, 255);
+    border-right: 50px solid rgb(235, 101, 124) ;
+    border-top: 50px solid rgb(85, 85, 255);
+    border-left: 50px solid rgb(235, 101, 124) ;
+    border-radius: 50px;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+
 }
 
 .i16pro{
@@ -57,6 +71,8 @@ nav ul{
 
 .mobile{
     padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
 @keyframes ul{
