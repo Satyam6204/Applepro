@@ -15,12 +15,14 @@ header{
 nav{
     display: flex;
     margin-top: 30px;
+    margin-left: 500px;
     justify-items: space-between ;
     
    }
 
 .title h1{
     font-size: 80px;
+    margin-left: 40px;
 }
 
 .logo img{
@@ -38,6 +40,7 @@ nav ul{
     list-style: none;
     display: flex;
       gap: 30px;
+  animation: ul 10s ease;
 }
 
 .box{
@@ -48,7 +51,19 @@ nav ul{
     margin-top: 50px;
 }
 
+.i16pro{
+    padding-bottom: 50px;
+}
 
+.mobile{
+    padding-top: 30px;
+}
+
+@keyframes ul{
+    50%{
+        transform: translateX(2px);
+    }
+}
 
 
 
